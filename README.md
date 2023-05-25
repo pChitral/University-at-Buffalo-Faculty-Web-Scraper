@@ -87,9 +87,7 @@ data = scraper.scrape_data()
 
 scraper.dump_to_csv("Department of Computer Science and Engineering Faculty Data.csv")
 df = scraper.return_df()
-
-
+```
 In this example, the `FacultyScraper` is initialized with the URL of the faculty directory website. The `scrape_data()` method is called to extract the faculty information, which is then dumped into a CSV file named `"Department of Computer Science and Engineering Faculty Data.csv"`. The scraped data is also returned as a Pandas DataFrame for further analysis.
 
 Note: The current implementation of the scraper is specifically designed for the URL: "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.html". If you want to scrape a different faculty directory website, you will need to modify the code accordingly.
-```
