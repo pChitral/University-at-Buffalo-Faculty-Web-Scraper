@@ -2,7 +2,13 @@ import unittest
 from bs4 import BeautifulSoup
 import pandas
 
-from FacultyScraper.FacultyScraper import FacultyScraper
+from bs4 import BeautifulSoup
+import requests
+import concurrent.futures
+import pandas as pd
+import re
+import logging
+
 
 
 class FacultyScraperTests(unittest.TestCase):
