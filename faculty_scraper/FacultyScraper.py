@@ -284,10 +284,7 @@ class FacultyScraper:
 
     def return_df(self,):
         """
-        Returns the data in csv. 
-
-        Args:
-            filename (str): The name of the CSV file.
+        Returns the data in a pandas dataframe. 
         """
         df = pd.DataFrame(self.list_of_dicts)
         return df
