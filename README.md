@@ -81,11 +81,11 @@ Here's an example that demonstrates the usage of the `FacultyScraper` class:
 ```python
 from faculty_scraper.FacultyScraper import FacultyScraper
 
-url = "https://example.com/faculty-directory"
+url = "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.html"
 scraper = FacultyScraper(url)
 data = scraper.scrape_data()
 
-scraper.dump_to_csv("faculty_data.csv")
+scraper.dump_to_csv("Department of Computer Science and Engineering Faculty Data.csv")
 df = scraper.return_df()
 
 
