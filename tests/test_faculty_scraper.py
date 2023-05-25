@@ -1,14 +1,11 @@
-import unittest
-from bs4 import BeautifulSoup
 import pandas
-
 from bs4 import BeautifulSoup
-import requests
-import concurrent.futures
-import pandas as pd
-import re
-import logging
+import unittest
+import sys
 
+sys.path.append("../")  # Add the path to the FacultyScraper directory
+
+from FacultyScraper import FacultyScraper
 
 
 class FacultyScraperTests(unittest.TestCase):
@@ -151,3 +148,5 @@ class FacultyScraperTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# python -m unittest test_faculty_scraper.py
