@@ -1,6 +1,6 @@
 # Faculty Scraper
 
-Faculty Scraper is a Python web scraping tool designed to extract data from a faculty directory website. It retrieves information such as faculty names, colleges, email addresses, subjects taught, and research topics. The scraped data is stored in a list of dictionaries and can be exported to a CSV file for further analysis.
+Faculty Scraper is a Python web scraping tool designed to extract data from a faculty directory website. It retrieves information such as faculty names, colleges, email addresses, subjects taught, and research topics. The scraped data is stored in a list of dictionaries and can be exported to a CSV file for further analysis. For those interested in a more in-depth understanding, I highly recommend reading my article: [Medium Link](https://chitralpatil.medium.com/web-scraping-with-python-a-comprehensive-guide-to-extracting-faculty-data-and-boosting-performance-49bc9e2341b5). It covers the code implementation, step-by-step explanations, and the benefits of utilizing concurrent features for efficient data extraction.
 
 ## Dependencies
 
